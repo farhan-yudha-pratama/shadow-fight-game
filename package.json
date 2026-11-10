@@ -1,0 +1,28 @@
+{
+  "name": "duel-bayangan",
+  "version": "2.4.3",
+  "description": "Game fighting 2D bergaya Shadow Fight dengan arsitektur modular, WebSocket P2P-relay multiplayer, dan siap deploy Docker/Dokploy.",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [
+    "fighting-game",
+    "shadow-fight",
+    "canvas2d",
+    "websocket",
+    "multiplayer",
+    "docker",
+    "dokploy"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
